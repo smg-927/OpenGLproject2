@@ -2,7 +2,7 @@
 
 #include "glad/glad.h"
 #include "GLFW/glfw3.h"
-#include <..\OpenGLproject2\Shader.h>
+#include "Shader.h"
 #include <iostream>
 #include "stb_image.h"
 #include "glm\glm\glm.hpp"
