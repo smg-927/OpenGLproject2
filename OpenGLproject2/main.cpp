@@ -1,8 +1,8 @@
 #define STB_IMAGE_IMPLEMENTATION
 
-#include <glad/glad.h>
-#include <GLFW/glfw3.h>
-#include <C:\Users\user\source\repos\OpenGLproject2\OpenGLproject2\Shader.h>
+#include "glad/glad.h"
+#include "GLFW/glfw3.h"
+#include <..\OpenGLproject2\Shader.h>
 #include <iostream>
 #include "stb_image.h"
 #include "glm\glm\glm.hpp"
