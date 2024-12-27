@@ -365,3 +365,4 @@ FodyWeavers.xsd
 # lib, include directory
 lib/
 include/GLFW/
+OpenGLproject2/OpenGLproject2.vcxproj
