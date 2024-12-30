@@ -38,9 +38,14 @@
     <ClInclude Include="glm\glm\gtc\type_ptr.hpp">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="shader_4_6.vert" />
     <None Include="shader_4_6.frag" />
+    <None Include="lighting_fragment.frag" />
+    <None Include="lighting_vertex.vert" />
   </ItemGroup>
 </Project>

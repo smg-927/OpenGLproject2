@@ -72,7 +72,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <IncludePath>C:\Users\user\source\repos\OpenGLproject2\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\user\source\repos\OpenGLproject2\lib\lib-vc2022;$(LibraryPath)</LibraryPath>
+    <LibraryPath>C:\Users\smg92\Downloads\glfw-3.4\build\src\Debug;C:\Users\smg92\OneDrive - 숭실대학교 - Soongsil University\문서\OpenGLproject2\include;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -108,6 +108,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\smg92\OneDrive - 숭실대학교 - Soongsil University\문서\OpenGLproject2\include;C:\Users\smg92\Downloads\glfw-3.4\build\src\Debug;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -136,6 +137,7 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="camera.h" />
     <ClInclude Include="glm\glm\glm.hpp" />
     <ClInclude Include="glm\glm\gtc\matrix_transform.hpp" />
     <ClInclude Include="glm\glm\gtc\type_ptr.hpp" />
@@ -143,6 +145,8 @@
     <ClInclude Include="stb_image.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="lighting_fragment.frag" />
+    <None Include="lighting_vertex.vert" />
     <None Include="shader_4_6.frag" />
     <None Include="shader_4_6.vert" />
   </ItemGroup>
